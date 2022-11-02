@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Position_LVDT_Properties.ctl" Type="VI" URL="../Position_LVDT_Properties.ctl"/>
+			<Item Name="Position_RVDT_Properties.ctl" Type="VI" URL="../Position_RVDT_Properties.ctl"/>
+		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 </Library>

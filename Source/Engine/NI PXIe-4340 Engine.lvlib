@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
-		<Item Name="Init" Type="Folder"/>
+		<Item Name="Init" Type="Folder">
+			<Item Name="Init Position_LVDT_AI Channel.vi" Type="VI" URL="../Init Position_LVDT_AI Channel.vi"/>
+			<Item Name="Init Position_RVDT_AI Channel.vi" Type="VI" URL="../Init Position_RVDT_AI Channel.vi"/>
+		</Item>
 		<Item Name="Run" Type="Folder"/>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>

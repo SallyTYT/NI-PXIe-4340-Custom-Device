@@ -5,13 +5,16 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
-			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Channel.vi" Type="VI" URL="../Channel.vi"/>
-			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
+			<Item Name="VDT Channel.vi" Type="VI" URL="../VDT Channel.vi"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Add AI.vi" Type="VI" URL="../Add AI.vi"/>
+			<Item Name="Get Channel Unit.vi" Type="VI" URL="../Get Channel Unit.vi"/>
+			<Item Name="Remove AI.vi" Type="VI" URL="../Remove AI.vi"/>
+			<Item Name="Select Physical Channels.vi" Type="VI" URL="../Select Physical Channels.vi"/>
+		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>
