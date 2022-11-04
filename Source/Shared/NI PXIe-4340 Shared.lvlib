@@ -4,7 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Get Channel Configuration.vi" Type="VI" URL="../Get Channel Configuration.vi"/>
+			<Item Name="Get Device Configuration.vi" Type="VI" URL="../Get Device Configuration.vi"/>
+		</Item>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Channel Configuration.ctl" Type="VI" URL="../Channel Configuration.ctl"/>
+			<Item Name="Device Configuration.ctl" Type="VI" URL="../Device Configuration.ctl"/>
+			<Item Name="Position_LVDT_Properties.ctl" Type="VI" URL="../Position_LVDT_Properties.ctl"/>
+			<Item Name="Position_RVDT_Properties.ctl" Type="VI" URL="../Position_RVDT_Properties.ctl"/>
+		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 </Library>

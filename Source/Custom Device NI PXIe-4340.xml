@@ -7,7 +7,7 @@
   </AddMenu>
   <Version>1.0.0</Version>
   <Type>Inline HW Interface</Type>
-  <MaxOccurrence>1</MaxOccurrence>
+  <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>24384c3f-cbac-44b1-9e9c-67384c2c8587</MainPageGUID>
   <InitializationVI>
     <Type>Action</Type>
@@ -35,22 +35,6 @@
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI PXIe-4340\NI PXIe-4340 Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
-				<SupportedTarget>VxWorks</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\NI PXIe-4340\VxWorks\NI PXIe-4340 Engine VxWorks.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI PXIe-4340\NI PXIe-4340 Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>	
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\NI PXIe-4340\Linux_32_ARM\NI PXIe-4340 Engine LinuxARM.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NI PXIe-4340\NI PXIe-4340 Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
@@ -70,7 +54,7 @@
       <GUID>24384c3f-cbac-44b1-9e9c-67384c2c8587</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\daq.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -80,17 +64,18 @@
     
 <Page>
       <Name>
-        <eng>Channel</eng>
-        <loc>Channel</loc>
+        <eng>VDT Channel</eng>
+        <loc>VDT Channel</loc>
       </Name>
+      <DeleteProtection>true</DeleteProtection>
       <GUID>120e73ab-1b58-4b2a-bf69-37c104b24587</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Path>System Explorer\Glyphs\ai.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\NI PXIe-4340\NI PXIe-4340 Configuration.llb\Channel.vi</Path>
+		<Path>Custom Devices\NI PXIe-4340\NI PXIe-4340 Configuration.llb\VDT Channel.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
