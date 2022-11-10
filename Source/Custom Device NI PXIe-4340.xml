@@ -6,7 +6,7 @@
     <loc>NI::NI PXIe-4340</loc>
   </AddMenu>
   <Version>1.0.0</Version>
-  <Type>Inline HW Interface</Type>
+  <Type>Asynchronous</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>24384c3f-cbac-44b1-9e9c-67384c2c8587</MainPageGUID>
   <InitializationVI>
